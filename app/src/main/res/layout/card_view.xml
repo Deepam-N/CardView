@@ -37,9 +37,27 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/MobileNo"
+                        android:id="@+id/UnitCost"
                         android:textSize="20sp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="5dp">
+                        <TextView
+                            android:id="@+id/Quantity_textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enter_quantity" />
 
+                        <EditText
+                            android:id="@+id/Quantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:inputType="number"
+                            android:importantForAutofill="no" />
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>

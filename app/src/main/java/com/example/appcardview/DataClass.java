@@ -2,12 +2,12 @@ package com.example.appcardview;
 
 public class DataClass {
     String name;
-    String mob;
+    String amt;
     int img_name;
-    DataClass(String mName, String mMob, int mImg_name)
+    DataClass(String mName, String mAmt, int mImg_name)
     {
         name=mName;
-        mob=mMob;
+        amt=mAmt;
         img_name=mImg_name;
     }
 }

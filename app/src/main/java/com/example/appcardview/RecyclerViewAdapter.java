@@ -29,7 +29,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(@NonNull RecyclerViewAdapter.ViewHolder holder, int position) {
         DataClass data = list.get(position);
         holder.Name.setText(data.name);
-        holder.MobileNo.setText(data.mob);
+        holder.UnitCost.setText(data.amt);
         holder.ImageView.setBackgroundResource(data.img_name);
     }
 
@@ -41,13 +41,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     static class ViewHolder extends RecyclerView.ViewHolder{
 
         TextView Name;
-        TextView MobileNo;
+        TextView UnitCost;
         ImageView ImageView;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             Name = itemView.findViewById(R.id.Name);
-            MobileNo = itemView.findViewById(R.id.MobileNo);
+            UnitCost = itemView.findViewById(R.id.UnitCost);
             ImageView = itemView.findViewById(R.id.ImageView);
 
         }

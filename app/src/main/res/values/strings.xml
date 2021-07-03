@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">App Card View</string>
+    <string name="trial">TRIAL</string>
+    <string name="enter_quantity">Enter Quantity:</string>
+    <string name="view_cart">View Cart 🛒</string>
+    <string name="textview">TextView</string>
+    <string name="cart"> Cart</string>
 </resources>
